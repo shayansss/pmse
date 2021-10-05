@@ -127,10 +127,10 @@ viewportObj.makeCurrent()
 
 viewportObj.viewportAnnotationOptions.setValues(triad=OFF, legend=OFF, title=OFF, state=OFF, annotations=OFF, compass=OFF)
 
-# START OF AUTOMATICALLY GENERATED PYTHON CODE
+# START OF AUTOMATICALLY GENERATED PYTHON CODE 1
 path = "temp_visualization"
-# END OF AUTOMATICALLY GENERATED PYTHON CODE
-
+# END OF AUTOMATICALLY GENERATED PYTHON CODE 1
+print path
 data = np.loadtxt(path, delimiter=",", dtype='float32')
 data = data.reshape(-1,1)
 
@@ -155,9 +155,11 @@ viewportObj.odbDisplay.setFrame(step=0, frame=0)
 viewportObj.odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF, ))
 leaf = dgo.LeafFromElementSets(elementSets=(' ALL ELEMENTS', ))
 viewportObj.odbDisplay.displayGroup.replace(leaf=leaf)
-viewportObj.odbDisplay.contourOptions.setValues(maxAutoCompute=OFF, maxValue=2, minAutoCompute=OFF, minValue=0)
+# START OF AUTOMATICALLY GENERATED PYTHON CODE 2
+viewportObj.odbDisplay.contourOptions.setValues(maxAutoCompute=OFF, maxValue=4, minAutoCompute=OFF, minValue=0)
+# END OF AUTOMATICALLY GENERATED PYTHON CODE 2
 viewportObj.view.fitView()
-
+viewportObj.odbDisplay.contourOptions.setValues(outsideLimitsMode=SPECTRUM)
 
 viewportObj.odbDisplay.setPrimaryVariable(variableLabel=name, outputPosition=NODAL)
 session.pngOptions.setValues(imageSize=(4000, 2536))
