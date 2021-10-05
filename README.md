@@ -1,5 +1,5 @@
 # PMSE: Pointwise Mean Squared Errors
-This repository contains the implementation and dataset files of the "PMSE" metric, described in our *under review* paper at MLIS 2021, entitled **"A simple pointwise evaluation metric to visualize errors in machine learning surrogate models"**.
+This repository contains the implementation and dataset files of the "PMSE" metric, described in our *under review* paper at MLIS 2021, entitled **"A Pointwise Evaluation Metric to Visualize Errors in Machine Learning Surrogate Models"**.
 
 PMSE is a simple metric to visualize the correlations between the errors of the machine learning surrogates and corresponding numerical models. Here, we used a simple Keras neural network for surrogate modeling and a finite element method for numerical modeling. The idea is to accelerate the numerical simulation by the surrogate, which is evaluated via the PMSE, and other relevant metrics, during training.
 
@@ -13,6 +13,7 @@ For the machine learning implementation:
 - scikit-learn >= 0.24.1
 - tensorflow >= 2.5.0
 - keras >= 2.4.3
+- h5py = 2.10.0
 
 For dataset generation and PMSE visualization:
 - Abaqus/CAE >= 2020
