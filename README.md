@@ -15,7 +15,7 @@ For the machine learning implementation:
 - keras >= 2.4.3
 - h5py = 2.10.0
 
-For dataset generation and PMSE visualization:
+For generation of datasets and contour plots:
 - Abaqus/CAE >= 2020
 
 ## Installation
@@ -30,7 +30,7 @@ If you desire to generate the datasets by yourself, first delete the current CSV
 By running the Jupyter Notebook file, the model is trained by the `run` function, while we extract all the visualization data using `matplotlib`. In addition, for the PMSE, we use also the `Abaqus` function that calls Abaqus/CAE to save the contours via another script, i.e., `Visualization.py`. All the results are then saved in the root directory.
 
 ## Evaluation and expected results
-While the model is trained, it automatically saves the errors over the test set in 6 groups every 40 epoch. These values are used to extract the snapshots of the PMSE contours and to plot the mean squared errors and the box plot of the squared errors v.s. the number of epochs.
+While the model is trained, it automatically saves the errors over the test set in 6 groups every 40 epoch. These values are used to extract the snapshots of the absolute errors and PMSE contours, and also, to plot the mean squared errors and the box plot of the squared errors v.s. the number of epochs.
 
 ## Experiment customization
 In the Jupyter Notebook file, you may change the arguments of the 'run' function to set a different architecture of the neural networks. You may also change the numerical model and physics problem, but for this, you should use `abq.cae` in Abaqus and update all the python scripts then. This is not trivial, and you may need to refer to the <a href="https://www.3ds.com/products-services/simulia/services-support/support/documentation/" target="_blank">Abaqus manual</a>.
