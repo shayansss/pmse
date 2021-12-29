@@ -1,7 +1,27 @@
 # PMSE: Pointwise Mean Squared Error
-This repository contains the implementation and dataset files of the "PMSE" metric, described in our *in press* paper at MLIS 2021, entitled "[A Pointwise Evaluation Metric to Visualize Errors in Machine Learning Surrogate Models](https://shayansss.github.io/files/2021_10_preprint.pdf)".
+This repository contains the implementation and dataset files of the "PMSE" metric, described in our published paper, entitled "[A Pointwise Evaluation Metric to Visualize Errors in Machine Learning Surrogate Models](https://shayansss.github.io/files/2021_11.pdf)".
 
 PMSE is a simple metric to visualize the correlations between the errors of the machine learning surrogates and corresponding numerical models. Here, we used a simple Keras neural network for surrogate modeling and a finite element method for numerical modeling. The idea is to accelerate the numerical simulation by the surrogate, which is evaluated via the PMSE, and other relevant metrics, during training.
+
+## Citation
+If this research data is useful for your work, kindly please consider citing our work ([DOI](http://dx.doi.org/10.3233/FAIA210386) | [PDF](https://shayansss.github.io/files/2021_11.pdf)):
+
+```
+@InProceedings{pmse,
+    author = {Seyed Shayan Sajjadinia and Bruno Carpentieri and Gerhard A. Holzapfel},
+    title = {A Pointwise Evaluation Metric to Visualize Errors in Machine Learning Surrogate Models},
+    booktitle = {Proceedings of CECNet 2021},
+    series = {Frontiers in Artificial Intelligence and Applications},
+    volume = 345,
+    month = nov,
+    year = 2021,
+    publisher = {ACM Press},
+    editor = {Antonio J. Tallón-Ballesteros},
+    pages = {26-34},
+    publisher = {IOS Press},
+    note  = {DOI: 10.3233/FAIA210386},
+}
+```
 
 ## Software dependency
 For the machine learning implementation:
