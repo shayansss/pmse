@@ -15,7 +15,6 @@ If this research data is useful for your work, kindly please consider citing our
     volume = 345,
     month = nov,
     year = 2021,
-    publisher = {ACM Press},
     editor = {Antonio J. Tallón-Ballesteros},
     pages = {26-34},
     publisher = {IOS Press},
