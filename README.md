@@ -15,7 +15,7 @@ If this research data is useful for your work, kindly please consider citing our
     volume = 345,
     month = nov,
     year = 2021,
-    editor = {Antonio J. Tallón-Ballesteros},
+    editor = {Antonio J. Tall\'{o}n-Ballesteros},
     pages = {26-34},
     publisher = {IOS Press},
     note  = {DOI: 10.3233/FAIA210386},
