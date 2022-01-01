@@ -18,7 +18,7 @@ If this research data is useful for your work, kindly please consider citing our
     editor = {Antonio J. Tall\'{o}n-Ballesteros},
     pages = {26-34},
     publisher = {IOS Press},
-    note  = {DOI: 10.3233/FAIA210386},
+    note  = {doi: 10.3233/faia210386},
 }
 ```
 
