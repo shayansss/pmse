@@ -9,7 +9,7 @@ If this research data is useful for your work, kindly please consider citing our
 ```
 @InProceedings{pmse,
     author = {Seyed Shayan Sajjadinia and Bruno Carpentieri and Gerhard A. Holzapfel},
-    title = {A Pointwise Evaluation Metric to Visualize Errors in Machine Learning Surrogate Models},
+    title = {A pointwise evaluation metric to visualize errors in machine learning surrogate models},
     booktitle = {Proceedings of CECNet 2021},
     series = {Frontiers in Artificial Intelligence and Applications},
     volume = 345,
@@ -18,7 +18,7 @@ If this research data is useful for your work, kindly please consider citing our
     editor = {Antonio J. Tall\'{o}n-Ballesteros},
     pages = {26-34},
     publisher = {IOS Press},
-    note  = {doi: 10.3233/faia210386},
+    doi  = {10.3233/faia210386},
 }
 ```
 
