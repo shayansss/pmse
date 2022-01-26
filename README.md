@@ -7,7 +7,7 @@ PMSE is a simple metric to visualize the correlations between the errors of the 
 If this research data is useful for your work, kindly please consider citing our work ([DOI](http://dx.doi.org/10.3233/FAIA210386) | [PDF](https://shayansss.github.io/files/2021_11.pdf)):
 
 ```
-@InProceedings{pmse,
+@InProceedings{sajjadinia2021c,
     author = {Seyed Shayan Sajjadinia and Bruno Carpentieri and Gerhard A. Holzapfel},
     title = {A pointwise evaluation metric to visualize errors in machine learning surrogate models},
     booktitle = {Proceedings of CECNet 2021},
